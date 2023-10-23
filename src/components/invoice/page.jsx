@@ -31,9 +31,9 @@ const Invoice = () => {
                     <div className="flex items-center px-4 py-2 space-x-2 bg-zinc-50 rounded-lg">
                         <Image src={profile2} width={32} height={32} alt="profile" className="rounded-full dark:bg-gray-500" />
                         <div>
-                            <h2 className="text-base font-semibold text-color-primary">Madrani Andi</h2>
+                            <h2 className="text-base font-semibold text-color-primary">Josua Nunito</h2>
                             <span className="flex items-center space-x-1">
-                                <Link href="#" className="text-xs text-color-secondary font-normal hover:underline dark:text-gray-400">Madrani20@gmail.com</Link>
+                                <Link href="#" className="text-xs text-color-secondary font-normal hover:underline dark:text-gray-400">Josh Nunito@gmail.com</Link>
                             </span>
                         </div>
                     </div>
