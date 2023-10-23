@@ -10,7 +10,7 @@ const Sidebar = ({name, email}) => {
         <div className="flex items-center justify-center p-4 space-x-4 bg-color-secondary">
           <Image src={gallery} width={24} height={24} alt="profile" className="rounded-full " />
         </div>
-        <div className="flex items-center p-2 space-x-4 bg-zinc-50">
+        <div className="flex items-center p-2 space-x-4 bg-zinc-50 cursor-pointer">
           <Image src={profile} width={32} height={32} alt="profile" className="rounded-full dark:bg-gray-500" />
           <div>
             <h2 className="text-base font-semibold text-color-primary">{name}</h2>
