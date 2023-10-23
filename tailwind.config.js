@@ -7,12 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      spacing: {
+        '90': '90px',
       },
+      colors: {
+        color: {
+          'primary': '#064061',
+          'secondary': '#C4C4C4',
+          'main': '#4EB7F2',
+        },
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/img/rectangle.png')",
+      }
     },
+
   },
   plugins: [],
 }

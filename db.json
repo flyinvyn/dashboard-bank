@@ -1,0 +1,17 @@
+{
+    "balance": [
+      { "id": 1, "title": "Balance", "date": "April 2023", "total": "38.00" }
+    ],
+    "income": [
+      { "id": 1, "title": "Landing Page project", "date": "April 2023", "income": "20.00" },
+      { "id": 2, "title": "Juni Mobile App project", "date": "April 2023", "income": "20.00" }
+    ],
+    "expenses": [
+      { "id": 1, "title": "Cash Withdrawal", "date": "April 2023", "expenses": "2.00" }
+    ],
+    "transaction": [
+      { "id": 1, "income": "20.00", "title": "Juni Mobile App project", "date": "Maret 2023"},
+      { "id": 2, "income": "20.00", "title": "Landing Page project", "date": "April 2023"},
+      { "id": 3, "income": "2.00", "title": "Cash Withdrawal", "date": "April 2023"}
+    ]
+}
